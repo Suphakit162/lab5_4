@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Friend</title>
+    <style>
+    .friend {
+      display: flex;
+      justify-content: space-between;
+      width: 200px;
+      margin: 5px 0;
+    }
+    .friend button {
+      background-color: red;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+<h1>Add Friend</h1>
+  <input type="text" id="friendInput" placeholder="Enter friend name">
+  <button onclick="addFriend()">Add</button>
+  
+  <div id="friendList"></div>
+    
+</body>
+<script src="AddFriend.js"></script>
+</html>
